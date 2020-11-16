@@ -408,7 +408,7 @@ class Zun {
     /// Display the entire license & wait for user to advance
     private fun showLicense(){
         this.licenseDisplay()
-        println("\n\n\t\t\t\tPress any key to continue...\n\n")
+        println("\n\n\t\t\t\tPress any key to continue...\n")
         readLine()
     }
 }
