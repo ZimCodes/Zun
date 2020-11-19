@@ -14,7 +14,7 @@ abstract class TempCleaner:Cleaner() {
     private fun tempFileDeletion(){
         println("-----Removing Temp Files/Directories from $name-----")
         val fileReg:Array<Regex> = arrayOf(
-                """(?:\.tmp$)|(?:\.log$)|(?:\.old$)|(?:\.temp$)|(?:\.lock$)|(?:\.dat$)|(?:\.crash)|(?:\.etl)|(?:\.ini)""".toRegex(),
+                """(?:\.tmp$)|(?:\.log$)|(?:\.old$)|(?:\.temp$)|(?:\.lock$)|(?:\.dat$)|(?:\.crash)|(?:\.etl)|(?:desktop\.ini)""".toRegex(),
         )
         val dirReg:Array<Regex> = arrayOf(
             """[Cc]ache$""".toRegex(),

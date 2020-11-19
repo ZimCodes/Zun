@@ -20,7 +20,7 @@ enum class CleanType(val opt:Int){
 }
 class Zun {
     private var input:Int = 0
-    private val version:String = "1.0.0"//Version
+    private val version:String = "1.0.1"//Version
     suspend fun start(){
         while(this.input != CleanType.EXIT.opt){
             this.askLoop()
