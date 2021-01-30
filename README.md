@@ -1,5 +1,5 @@
 # Zun
-A system file cleaner **currently supporting Windows only** made using Kotlin/Java
+A system file cleaner **currently supporting Windows only** made using Kotlin
 
 ## Features
 
